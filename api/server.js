@@ -1,11 +1,13 @@
 require("dotenv").config();
 const express = require("express");
 const os = require("os");
+var cors = require('cors')
 
 const app = express();
 const port = process.env.PORT || 3000;
 const hostname = os.hostname();
 
+app.use(cors());
 app.use(express.json());
 
 const data = require("./public/data/target-data.json")
