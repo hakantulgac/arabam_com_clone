@@ -1,9 +1,9 @@
 import axios from "axios";
+import { apiUrl } from "../data/data-provider";
 
 const httpGet = async (url) => {
-    const root = "https://arabam-api.onrender.com"
     try {
-        const response = await axios.get(root+url);
+        const response = await axios.get(apiUrl+url);
         return response.data;    
     } catch (error) {
         console.log(error);

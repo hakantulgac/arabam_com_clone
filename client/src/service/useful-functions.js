@@ -1,6 +1,8 @@
+import { apiUrl } from "../data/data-provider";
+
 export const createImageUrl = (vehicleName) => {
     const imageName = vehicleName.split(" ").join("") + ".jpg";
-    const url = "/vehicleImage/" + imageName;
+    const url = apiUrl+ "/vehicleImage/" +imageName;
     return url;
 }
 
