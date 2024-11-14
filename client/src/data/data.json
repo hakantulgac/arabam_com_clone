@@ -1,0 +1,288 @@
+{
+    "headerDropItems": [
+        {
+            "itemTitle": "Trink sat!",
+            "dropItems": [
+                "Teklifi Al",
+                "Randevum var"
+            ]
+        },
+        {
+            "itemTitle": "Araç Al",
+            "dropItems": [
+                "Otomobil",
+                "Arazi, SUV, Pick-up",
+                "Motosiklet",
+                "Minivan & Panelvan",
+                "Ticari Araçlar",
+                "Kiralık Araçlar"
+            ]
+        },
+        {
+            "itemTitle": "Araç Sat",
+            "dropItems": [
+                "Trink sat!",
+                "Ücretsiz İlan Ver",
+                "Turbolar",
+                "Arabam Kaç Para?",
+                "Filo Araçlarını Hızlı Sat!"
+            ]
+        },
+        {
+            "itemTitle": "Hizmetlerimiz",
+            "dropItems": [
+                "Arabam Kaç Para?",
+                "Hasar Sorgulama",
+                "Turbolar",
+                "Otomobil Terimleri Sözlüğü",
+                "Tedarik",
+                "Garaj",
+                "Ekspertiz"
+            ]
+        },
+        {
+            "itemTitle": "arabam Blog",
+            "dropItems": [
+                "Blog Anasayfa",
+                "Haberler",
+                "Testler",
+                "İnceleme",
+                "Otomobil Yaşam",
+                "Danışman"
+            ]
+        },
+        {
+            "itemTitle": "Kurumsal",
+            "dropItems": [
+                "Tedarik",
+                "Filo Araçlarını Hızlı Sat",
+                "Neden Kurumsal Üye Olmalıyım?",
+                "Kurumsal Başvuru"
+            ]
+        },
+        {
+            "itemTitle": "Garaj",
+            "dropItems": [
+                "Garajı Keşfet",
+                "Oto Kuaför",
+                "Servis & Bakım",
+                "Renault Bakım",
+                "Opel Bakım",
+                "Toyota Bakım"
+            ]
+        },
+        {
+            "itemTitle": "Expertiz",
+            "dropItems": [
+                "Paketleri incele",
+                "Şubeleri gör"
+            ]
+        }
+    ],
+
+    "footerMenuItems": [
+        {
+            "id":0,
+            "title": "Satılık Araba",
+            "list": [
+                "Satılık Alfa Romeo","Satılık Audi","Satılık BMW","Satılık Citroen","Satılık Dacia","Satılık Fiat",
+                "Satılık Ford","Satılık Honda","Satılık Hyundai","Satılık Kia","Satılık Mazda","Satılık Mercedes","Satılık Nissan",
+                "Satılık Opel","Satılık Peugeot","Satılık Renault","Sahibinden Satılık Araba","Satılık Skoda","Satılık Tofaş",
+                "Satılık Toyota","Satılık Volkswagen","Satılık Volvo"
+            ]
+        },
+        {
+            "id":1,
+            "title": "Sahibinden",
+            "list": [
+                "Sahibinden Alfa Romeo","Sahibinden Audi","Sahibinden BMW","Sahibinden Citroen","Sahibinden Dacia","Sahibinden Fiat",
+                "Sahibinden Ford","Sahibinden Honda","Sahibinden Hyundai","Sahibinden Kia","Sahibinden Mazda","Sahibinden Mercedes","Sahibinden Nissan",
+                "Sahibinden Opel","Sahibinden Peugeot","Sahibinden Renault","Sahibinden Sahibinden Araba","Sahibinden Skoda","Sahibinden Tofaş",
+                "Sahibinden Toyota","Sahibinden Volkswagen","Sahibinden Volvo"
+            ]
+        },
+        {
+            "id":2,
+            "title": "Şehir",
+            "list": [
+                "2.El Alfa Romeo","2.El Audi","2.El BMW","2.El Citroen","2.El Dacia","2.El Fiat",
+                "2.El Ford","2.El Honda","2.El Hyundai","2.El Kia","2.El Mazda","2.El Mercedes","2.El Nissan",
+                "2.El Opel","2.El Peugeot","2.El Renault","2.El 2.El Araba","2.El Skoda","2.El Tofaş",
+                "2.El Toyota","2.El Volkswagen","2.El Volvo"
+            ]
+        },
+        {
+            "id":3,
+            "title": "Sıfır KM",
+            "list": [
+                "Sıfır Alfa Romeo","Sıfır Audi","Sıfır BMW","Sıfır Citroen","Sıfır Dacia","Sıfır Fiat",
+                "Sıfır Ford","Sıfır Honda","Sıfır Hyundai","Sıfır Kia","Sıfır Mazda","Sıfır Mercedes","Sıfır Nissan",
+                "Sıfır Opel","Sıfır Peugeot","Sıfır Renault","Sıfır Sıfır Araba","Sıfır Skoda","Sıfır Tofaş",
+                "Sıfır Toyota"
+            ]
+        },
+        {
+            "id":4,
+            "title": "Garaj",
+            "list": [
+                "Garajı Keşfet","Oto Kuaför","Servis & Bakım","Renault Bakım","Opel Bakım","Toyota Bakım"
+            ]
+        }      
+    ],
+    "footerBrands": [
+        "Kariyer.net", "İsinolsun.com", "Emlakjet", "Sigortam.net", "HangiKredi", "Neredekal.com", "ChemOrbis", "Cimri.com", "SteelOrbis"
+    ],
+    "footerLeftMenuItems": [
+        "Hakkımızda","Üye Hikayeleri","Yardım / İşlem Rehberi","Gizlilik Politikası","Reklam Verin","İletişim","Ziyaretçi Aydınlatma Metni","Kişisel Verilerin Korunması Kanunu Hakkında Bilgilendirme"
+    ],
+    "footerContactLinks": {
+        "application": [
+            {"class": "bi-android2", "label": "Google Play'den"},
+            {"class": "bi-apple", "label": "App Store'dan"},
+            {"class": "bi-handbag-fill", "label": "App Gallery'den"}
+        ],
+        "social": [
+            "bi-facebook", "bi-twitter-x", "bi-youtube", "bi-instagram"
+        ]
+    },
+    "mainMenuItems": [
+        {
+            "id": 0,
+            "title":"Trink Sat", 
+            "text": "Aracını değerinde ve anında biz alıyoruz, ",
+            "point": "15 dakika içinde paran cebinde!",
+            "img": "trink-sat.png",
+            "underLineText": "Fiyat Teklifi Al",
+            "textColor": "primary"
+        },
+        {
+            "id": 1,
+            "title":"Arabam Kaç Para?", 
+            "text": "Alan memnun, satan memnun ",
+            "point": "fiyatını öğren!",
+            "img": "how-much-my-car.png",
+            "underLineText": "Hemen Başla",
+            "textColor": "danger"
+        },
+        {
+            "id": 2,
+            "title":"Sıfır Km Araçlar", 
+            "text": "Sıfır km araç özelliklerini ve ",
+            "point": "fiyat listesini incele!",
+            "img": "zero-km.png",
+            "underLineText": "Detaylı İncele",
+            "textColor": "warning"
+        },
+        {
+            "id": 3,
+            "title":"Bana Araç Öner", 
+            "text": "Hangi aracı alacağına karar veremediysen, ",
+            "point": "biz sana önerelim!",
+            "img": "suggest-vehicle.png",
+            "underLineText": "Hemen Başla",
+            "textColor": "warning"
+        },
+        {
+            "id": 4,
+            "title":"Garaj", 
+            "text": "Periyodik Bakım'dan Oto Kuaför'e kadar ",
+            "point": "aracın için her şey!",
+            "img": "garage.png",
+            "underLineText": "Detaylı İncele",
+            "textColor": "warning"
+        }
+    ],
+    "highlightItems": [
+        {"id": 0, "title": "MARCAR PLAZA ATAŞEHİR", "img": "seller-1.jpg"},
+        {"id": 1, "title": "ALPERGÜN OTOMOTİV", "img": "seller-2.jpg"},
+        {"id": 2, "title": "UÇAR OTOMOTİV", "img": "seller-3.jpg"},
+        {"id": 3, "title": "DİCLE OTOMOTİV", "img": "seller-4.jpg"},
+        {"id": 4, "title": "ÜMİT AUTO GAZİANTEP", "img": "seller-5.jpg"},
+        {"id": 5, "title": "MBS BÜYÜKSOYLU OTOMOTİV", "img": "seller-6.jpg"}
+    ],
+    "sideMenuItems": [
+        {"title": "Tüm İlanlar", "count": 148.464},
+        {"title": "Otomobil", "count": 99885},
+        {"title": "Arazi, SUV, Pick-up", "count": 14740},
+        {"title": "Motosiklet", "count": 6570},
+        {"title": "Minivan & Panelvan", "count": 18215},
+        {"title": "Ticari Araçlar", "count": 6047},
+        {"title": "Kiralık Araçlar", "count": 537},
+        {"title": "Hasarlı Araçlar", "count": 203},
+        {"title": "Traktör", "count": 752},
+        {"title": "Tarım & İş Makineleri", "count": 249},
+        {"title": "Klasik Araçlar", "count": 185},
+        {"title": "Elektrikli Araçlar", "count": 352},
+        {"title": "ATV & UTV", "count": 250},
+        {"title": "Karavan", "count": 438},
+        {"title": "Engelli Araçları", "count": 16},
+        {"title": "Modifiyeli Araçlar", "count": 25}
+    ],
+    "vehicleTitles" : [
+        {"id":0, "title":"2. El Araçlar"},
+        {"id":1, "title":"Sahibinden"},
+        {"id":2, "title":"Galeriden"},
+        {"id":3, "title":"Yetkili Bayiden"},
+        {"id":4, "title":"Rent a Car"}
+    ],
+    "coopItems": [
+        {
+            "image":"coop_1.png",
+            "text":"Sadece arabam.com’da Bulabileceğiniz Hizmetlerle İşinize Değer Katalım"
+        },
+        {
+            "image":"coop_2.png",
+            "text":"Ek Gelir ve Fayda Sağlayan Hizmetlerimizi Keşfedin"
+        },
+        {
+            "image":"coop_3.png",
+            "text":"arabam.com’u, Tercih Eden Üyelerimizden Dinleyin"
+        }
+    ],
+    "newsComponents": [
+        {
+            "name":"test",
+            "title":"Test Sürüşleri",
+            "header":{
+                "header_title":"Renault Megane E-Tech Test Sürüşü",
+                "background_image":"test_title_image.jpg",
+                "header_text":"Renault Megane E-Tech modelinin tüm detaylarını sizler için inceledik. Hazırsanız, bu heyecan verici aracı birlikte keşfetmeye başlayalım!"
+            },
+            "footer":"Tüm Sürüşler", 
+            "items":[
+                {
+                    "item_title":"Suzuki S-Cross Hybrid Test Sürüşü",
+                    "item_text":"Suzuki S-Cross Hybrid modelinin tüm detaylarını ve sürüş deneyimimizi merak ediyorsanız yazımızı okumaya başlayın!",
+                    "item_image":"test_1.jpg"
+                },
+                {
+                    "item_title":"MG ZS EV Test Sürüşü",
+                    "item_text":"Hem dış tasarımı hem de teknolojik anlamda gelişen, sınıfının ilk Euro NCAP’ten 5 yıldız alan ve tamamen elektrikli şehirli SUV’si MG ZS EV test sürüşünün bütün detaylarını sizler için inceledik. MG...",
+                    "item_image":"test_2.jpg"
+                }
+            ]
+        },
+        {
+            "name":"news",
+            "title":"Haberler",
+            "header":{
+                "header_title":"İthal Otomobillere %10 Ek Gümrük Vergisi Geldi!",
+                "background_image":"news_title_image.jpg",
+                "header_text":"Resmi Gazete’de yayımlanan düzenlemeyle ithal otomobillere %10 ek gümrük vergisi uygulanacak. Detaylar için tıklayın!"
+            },
+            "footer":"Tüm Haberler", 
+            "items":[
+                {
+                    "item_title":"Citroen C4 X ile Sürüş Avantajlarının Keyfini Çıkarın!",
+                    "item_text":"Citroen C4 X ile ilgili aradığınız bütün detaylar burada! Modelin teknolojik donanımından dış tasarımına kadar ele aldığımız bu içeriğimize mutlaka göz atın!",
+                    "item_image":"news_1.jpg"
+                },
+                {
+                    "item_title":"Aracınızı Satmadan Önce Yapmanız Gereken Bakımlar",
+                    "item_text":"Bu rehberde araç satış sürecinde yapmanız gereken adımları bulabilirsiniz.",
+                    "item_image":"news_2.jpg"
+                }
+            ]
+        }
+    ]
+}
