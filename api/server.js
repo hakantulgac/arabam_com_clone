@@ -1,6 +1,10 @@
+require("dotenv").config();
 const express = require("express");
+const os = require("os");
+
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 3000;
+const hostname = os.hostname();
 
 app.use(express.json());
 
@@ -18,5 +22,5 @@ app.get("/vehicleImage/:file_name",(req, res)=>{
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at ${hostname}:${port}`);
 });
