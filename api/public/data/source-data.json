@@ -1,0 +1,72 @@
+{
+  "source_data": {
+    "names": [
+      "Volkswagen Transporter 2.0 TDI Camlı Van Comfortline",
+      "Fiat Egea 1.4 Fire Easy Plus",
+      "Volkswagen Passat 2.0 TDi Comfortline",
+      "Ford Focus 1.6 TDCi Trend X",
+      "Mercedes - Benz GL 350 CDI",
+      "BMW X1 16i sDrive",
+      "Nissan X-Trail 1.6 dCi Platinum",
+      "Isuzu NPR",
+      "Renault R 12 TSW",
+      "Citroen C-Elysee 1.5 BlueHDi Feel",
+      "Opel Frontera 2.2",
+      "Ford Fiesta 1.4 TDCi Comfort",
+      "Honda Civic 1.6 i-VTEC ECO Elegance",
+      "Tofaş Şahin 1.6",
+      "Fiat Linea 1.3 Multijet Active Plus",
+      "Skoda Forman LX",
+      "Iveco - Otoyol 35 35.9",
+      "Volvo V50 1.6 D Dynamic",
+      "Toyota Proace City 1.5 D Passion X-Pack",
+      "Dodge Nitro 2.8 CRD SXT"
+    ],
+    "descriptions": [
+      "Galeriden Dodge Nitro 2.8 CRD SXT 2009 Model Aydın",
+      "KOF otomotivden Volkswagen Polo 1.4 TDi Trendline 2004 Model Samsun",
+      "2013 Hyundai i30 1.6 CRDI Style Otomatik Vites Hatasız-Boyasız",
+      "UGR MOTORS'DAN 2011 MODEL DEĞİŞENSİZ BOYASIZ TOYOTA COROLLA 1.33",
+      "Çimen'den Boyasız 29000 km de Otomatik 140 Hp Megane",
+      "SRK AUTO-VW JETTA 1.2TSİ MANUEL TRENDLİNE EMSALSİZ TEMİZLİKTE",
+      "GARANTİLİ Peugeot 3008 1.5 BlueHDI GT 2023 Model İstanbul",
+      "36 AY TAKSİTLE OPEL CORSA 1.2 ESSENTİA 132.000KM",
+      "2022 MD SEAT ARONA 1.0 TSI OTOMATİK",
+      "HATASIZ MG HS 1.5 T-GDI Luxury 2024 Model Muğla"
+    ],
+    "properties": [
+      "24.00 km",
+      "Benzin",
+      "Düz",
+      "129.000 km",
+      "Önden Çekişli",
+      "4x4",
+      "Hatasız",
+      "Boyasız",
+      "Otomatik",
+      "Elektrikli",
+      "Hybrid",
+      "Yarı Otomatik",
+      "Sahibinden",
+      "Garantisi Yok",
+      "1688cc",
+      "Arkadan Çekişli",
+      "Boyalı",
+      "İkinci El",
+      "Dizel",
+      "LPG"
+    ],
+    "places":[
+      {"city": "Ankara", "district": "Altındağ"},
+      {"city": "Kütahya", "district": "Merkez"},
+      {"city": "Muğla", "district": "Bodrum"},
+      {"city": "Bursa", "district": "Orhangazi"},
+      {"city": "İstanbul", "district": "Bakırköy"},
+      {"city": "Şanlıurfa", "district": "Haliliye"},
+      {"city": "Kastamonu", "district": "İnebolu"},
+      {"city": "Çanakkale", "district": "Çan"},
+      {"city": "Tekirdağ", "district": "Çorlu"},
+      {"city": "Burdur", "district": "Bucak"}
+    ]
+  }
+}
