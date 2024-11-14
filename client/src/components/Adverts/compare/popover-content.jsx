@@ -1,6 +1,7 @@
 import { Card } from 'antd'
 import React, { useContext, useEffect, useState } from 'react'
 import { CompareContext } from '../../../context/compare-context'
+import { createImageUrl } from '../../../service/useful-functions';
 
 const PopoverContent = () => {
     const { compareItems, setCompareItems } = useContext(CompareContext);
@@ -10,12 +11,6 @@ const PopoverContent = () => {
         localStorage.setItem("compareItems",JSON.stringify(compareItems));
         setKey(k => k + 1);
     }, [compareItems])
-
-    const createImageUrl = (vehicleName) => {
-        const imageName = vehicleName.split(" ").join("") + ".jpg";
-        const url = "/vehicleImage/" + imageName;
-        return url;
-    }
 
     const compareItemDelete = (id) => {
         setCompareItems(compareItems.filter(i=>i.id!==id));
