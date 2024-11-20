@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { CompareContext } from '../../../../context/compare-context';
 import { createImageUrl, customizeDate, formattedPrice } from '../../../../service/useful-functions';
 
-const ListView = ({ vehicleData, sortMode, setSortMode }) => {
+const ListView = ({ vehicleData, sortMode, setSortMode, currentPage }) => {
     const { compareItems, setCompareItems, setPopoverOpen, setHiddenItems } = useContext(CompareContext);
 
     const compareClickHandler = (item) => {
@@ -80,7 +80,7 @@ const ListView = ({ vehicleData, sortMode, setSortMode }) => {
                     style={{ width: "100%" }}
                 />
                 <ul>
-                    {vehicleData.map((item, index) => (
+                    {vehicleData.filter((item, i)=>(currentPage-1)*50<=i && i<currentPage*50).map((item, index) => (
                         <li
                             key={index} 
                             className='text-center'

@@ -1,13 +1,15 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import DetailView from './table_types/detail-view';
 import ListView from './table_types/list-view';
 import GridView from './table_types/grid-view';
 import { VehicleContext } from '../../../context/vehicle-context';
 import SideFilter from '../side-filter';
 import MobileView from './table_types/mobile-view';
+import Pagination from './pagination';
 
 const TableBody = ({ tableMode, sortMode, setSortMode }) => {
     const { vehicleData, filterType } = useContext(VehicleContext);
+    const [ currentPage, setCurrentPage ] = useState(1);
 
     useEffect(() => {
         sortMode !== "" ?
@@ -31,18 +33,21 @@ const TableBody = ({ tableMode, sortMode, setSortMode }) => {
                     vehicleData={vehicleData.filter(i => i.type === filterType)}
                     sortMode={sortMode}
                     setSortMode={setSortMode}
+                    currentPage={currentPage}
                 />
             )
         } else if (tableMode === "detail") {
             return (
                 <DetailView
                     vehicleData={vehicleData.filter(i => i.type === filterType)}
+                    currentPage={currentPage}
                 />
             )
         } else if (tableMode === "grid") {
             return (
                 <GridView
                     vehicleData={vehicleData.filter(i => i.type === filterType)}
+                    currentPage={currentPage}
                 />
             )
         } else { return "Error!!" }
@@ -53,6 +58,7 @@ const TableBody = ({ tableMode, sortMode, setSortMode }) => {
             <div className='just-mobile'>
                 <MobileView
                     vehicleData={vehicleData.filter(i => i.type === filterType)}
+                    currentPage={currentPage}
                 />
             </div>
             <div className='no-place-for-mobile'>
@@ -66,21 +72,11 @@ const TableBody = ({ tableMode, sortMode, setSortMode }) => {
                     dynamicTable()
                 }
             </div>
-            <div className="pagination-container">
-                <p>
-                    Toplam <b>50</b> sayfa içerisinde <b>1.</b> sayfadasınız.
-                </p>
-                <div>
-                    <ul className="pagination-items">
-                        <li>{"<"}</li>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>...</li>
-                        <li>3</li>
-                        <li>{">"}</li>
-                    </ul>
-                </div>
-            </div>
+                <Pagination 
+                    currentPage={currentPage} 
+                    setCurrentPage={setCurrentPage} 
+                    dataLength={vehicleData.filter(i => i.type === filterType).length}
+                />
             <div className='just-mobile'>
                 <SideFilter />
             </div>

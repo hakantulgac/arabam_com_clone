@@ -1,10 +1,10 @@
 import React from 'react'
 import { createImageUrl, formattedPrice } from '../../../../service/useful-functions'
 
-const MobileView = ({ vehicleData }) => {
+const MobileView = ({ vehicleData, currentPage }) => {
     return (
         <div className='mobile-view-container'>
-            {vehicleData.map((item, index) => (
+            {vehicleData.filter((item, i)=>(currentPage-1)*50<=i && i<currentPage*50).map((item, index) => (
                 <div key={index} className='mobile-view-item'>
                     <div className='mobile-view-img-container'>
                         <img className='w-100' src={createImageUrl(item.name)} alt="" />

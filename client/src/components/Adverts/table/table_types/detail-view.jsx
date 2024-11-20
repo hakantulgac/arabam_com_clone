@@ -1,10 +1,10 @@
 import React from 'react'
 import { createImageUrl, formattedPrice, customizeDate } from "../../../../service/useful-functions";
 
-const DetailView = ({ vehicleData }) => {
+const DetailView = ({ vehicleData, currentPage }) => {
   return (
     <div>
-      {vehicleData.map((item, index) => (
+      {vehicleData.filter((item, i)=>(currentPage-1)*50<=i && i<currentPage*50).map((item, index) => (
         <div key={index} className='detail-view-item'>
           <div className='vehicle-image-container'>
             <img src={createImageUrl(item.name)} alt="" />

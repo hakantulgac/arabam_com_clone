@@ -1,11 +1,11 @@
 import React from 'react'
 import { createImageUrl, formattedPrice } from '../../../../service/useful-functions'
 
-const GridView = ({ vehicleData }) => {
+const GridView = ({ vehicleData, currentPage }) => {
   return (
     <div>
       <div className="row">
-        {vehicleData.map((item, index) => (
+        {vehicleData.filter((item, i)=>(currentPage-1)*50<=i && i<currentPage*50).map((item, index) => (
           <div key={index} className="col col-4 py-3">
             <div className='grid-view-item'>
               <div className='grid-view-img-container'>
