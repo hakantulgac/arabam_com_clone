@@ -10,10 +10,21 @@ const hostname = os.hostname();
 app.use(cors());
 app.use(express.json());
 
-const data = require("./public/data/target-data.json")
+const data = require("./public/data/target-data.json");
+const places = require("./public/data/places.json");
 
 app.get("/data",(req,res)=>{
     res.send(data);
+});
+
+app.get("/city",(req,res)=>{
+    res.send(places.city);
+});
+
+app.get("/district/:city_id", (req,res)=>{
+    const cityId = req.params.city_id;
+    const result = places.district.filter(i=>i.id==cityId);
+    res.send(result);
 });
 
 app.get("/vehicleImage/:file_name",(req, res)=>{
