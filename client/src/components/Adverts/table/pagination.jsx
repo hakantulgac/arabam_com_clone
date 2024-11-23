@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const Pagination = ({currentPage, setCurrentPage, dataLength}) => {
     const pageNumber = Math.floor(dataLength/50)+1;
@@ -12,10 +12,6 @@ const Pagination = ({currentPage, setCurrentPage, dataLength}) => {
         >{i}</li>
     )
 
-    useEffect(()=>{
-        console.log(currentPage)
-    },[currentPage])
-
     return (
         <div className="pagination-container">
             <p>
@@ -27,8 +23,8 @@ const Pagination = ({currentPage, setCurrentPage, dataLength}) => {
                         style={currentPage===1? {display: "none"}:{}}
                         onClick={()=>setCurrentPage(prev=>prev-1)}
                     >{"<"}</li>
-                        {paginationItems.map(i=>(
-                            <>{i}</>
+                        {paginationItems.map((i, index)=>(
+                            <span key={index}>{i}</span>
                         ))}
                     <li
                         style={currentPage===pageNumber? {display: "none"}:{}}

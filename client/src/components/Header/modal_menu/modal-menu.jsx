@@ -37,7 +37,7 @@ const ModalMenu = () => {
                 <div className='px-auto'>
                     <VerticalNav/>
                 </div>
-                <button type="button" class="btn btn-warning w-100 mt-4 sticky-bottom">
+                <button type="button" className="btn btn-warning w-100 mt-4 sticky-bottom">
                     Ücretsiz İlan Ver
                 </button>
             </Modal>

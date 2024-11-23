@@ -8,7 +8,7 @@ const SideMenu = ({ sideMenuItems }) => (
         placement="bottomRight" trigger="click" 
         content={<MenuItems sideMenuItems={sideMenuItems} mobile={true}/>}
     >
-        <Button><i class="bi bi-list"></i></Button>
+        <Button><i className="bi bi-list"></i></Button>
     </Popover>
 )
 

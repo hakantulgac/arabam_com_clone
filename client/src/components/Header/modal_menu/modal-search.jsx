@@ -16,7 +16,7 @@ const ModalSearch= () => {
 
     return (
         <>
-            <i class="bi bi-search" onClick={showModal}></i>
+            <i className="bi bi-search" onClick={showModal}></i>
             <Modal
                 title="Arama"
                 open={isModalOpen}
