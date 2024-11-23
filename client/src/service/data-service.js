@@ -1,13 +1,13 @@
 import { httpGet } from "./http-client";
 
-const getVehicleData = async (url) => {
+const getRequest = async (url) => {
     const response = await httpGet(url);
     
-    if(response && response.vehicleData){
-        return response.vehicleData;
+    if(response){
+        return response;
     }else{
         return [];
     }
 }
 
-export {getVehicleData};
+export {getRequest};

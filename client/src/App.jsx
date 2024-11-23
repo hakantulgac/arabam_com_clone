@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { VehicleContextProvider } from "./context/vehicle-context"
 import { CompareContextProvider } from "./context/compare-context";
 import Header from "./components/Header/Header";
+import { PlacesContextProvider } from "./context/places-context";
 
 function App() {
   return (
@@ -17,10 +18,12 @@ function App() {
       </header>
       <VehicleContextProvider>
         <CompareContextProvider>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/tüm-ilanlar" element={<Adverts />} />
-          </Routes>
+          <PlacesContextProvider>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/tüm-ilanlar" element={<Adverts />} />
+            </Routes>
+          </PlacesContextProvider>
         </CompareContextProvider>
       </VehicleContextProvider>
       <footer>
