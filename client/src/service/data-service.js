@@ -1,13 +1,13 @@
-import { httpGet } from "./http-client";
+import { httpClient } from "./http-client";
 
-const getRequest = async (url) => {
-    const response = await httpGet(url);
-    
-    if(response){
-        return response;
-    }else{
-        return [];
-    }
+const getRequest = (url) => {
+    const response = httpClient.get(url);
+    return response ? response : []
 }
 
-export {getRequest};
+const postRequest = (url, body) => {
+    const response = httpClient.post(url, body);
+    return response ? response : []
+}
+
+export {getRequest, postRequest};
