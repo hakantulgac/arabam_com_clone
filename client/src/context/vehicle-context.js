@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { getRequest } from "../service/data-service";
+import { postRequest } from "../service/data-service";
 
 const VehicleContext = createContext();
 
@@ -8,10 +8,10 @@ const VehicleContextProvider = ({ children }) => {
     const [filterType, setFilterType] = useState(0);
 
     useEffect(() => {
-        getRequest("/data")
+        postRequest("/data")
             .then(res => {
-                if(res.vehicleData){
-                    setVehicleData(res.vehicleData)
+                if(res){
+                    setVehicleData(res)
                 }
             })
     }, [])
