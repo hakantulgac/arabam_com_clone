@@ -3,7 +3,7 @@ import DetailView from './table_types/detail-view';
 import ListView from './table_types/list-view';
 import GridView from './table_types/grid-view';
 import { VehicleContext } from '../../../context/vehicle-context';
-import SideFilter from '../side-filter';
+import SideFilter from '../side_filter/side-filter';
 import MobileView from './table_types/mobile-view';
 import Pagination from './pagination';
 

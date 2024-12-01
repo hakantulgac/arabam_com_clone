@@ -24,3 +24,16 @@ export const formattedPrice = (price) => {
     const result = stringPrice.replace(",", ".");
     return result.replace(",", ".");
 }
+
+export const createReqBody = (vehicleReqBody) => {
+    const body = {}
+
+    vehicleReqBody.minTl && vehicleReqBody.maxTl ? body.priceRange = [vehicleReqBody.minTl, vehicleReqBody.maxTl] : (()=>{})();
+    vehicleReqBody.city ? body.city = vehicleReqBody.city: (()=>{})();
+    vehicleReqBody.district ? body.district = vehicleReqBody.district: (()=>{})();
+    vehicleReqBody.minYear && vehicleReqBody.maxYear ? body.yearRange = [vehicleReqBody.minYear, vehicleReqBody.maxYear] : (()=>{})();
+    vehicleReqBody.day ? body.dateRange = vehicleReqBody.day: (()=>{})();
+    vehicleReqBody.keyWord ? body.keyWord = vehicleReqBody.keyWord : (()=>{})();
+
+    return body;
+}

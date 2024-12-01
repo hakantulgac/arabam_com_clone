@@ -27,7 +27,7 @@ const PlacesContextProvider = ({ children }) => {
     }, [selectedCity])
 
     return (
-        <PlacesContext.Provider value={{cities, districts, setSelectedCity}}>
+        <PlacesContext.Provider value={{cities, districts, setDistricts, setSelectedCity}}>
             {children}
         </PlacesContext.Provider>
     )

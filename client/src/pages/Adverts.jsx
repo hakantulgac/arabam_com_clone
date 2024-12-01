@@ -3,7 +3,7 @@ import { sideMenuItems, vehicleTitles } from '../data/data-provider';
 import TableBody from '../components/Adverts/table/Table-body';
 import { VehicleContext } from "../context/vehicle-context";
 import CompareVehicles from '../components/Adverts/compare/compare-vehicles';
-import SideFilter from '../components/Adverts/side-filter';
+import SideFilter from '../components/Adverts/side_filter/side-filter';
 
 const Adverts = () => {
   const [tableMode, setTableMode] = useState("list");
