@@ -2,6 +2,7 @@
 - For display second page you can click "Tüm ilanlar" on left menu.
 
 - Some visual samples from the ui:
+
   Main Page:
 
   ![0 1](https://github.com/user-attachments/assets/6499c754-9de7-41f0-be43-3e89d579238c)
